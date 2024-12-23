@@ -62,4 +62,4 @@ The User Interface has been designed by following the latest Google's Material D
 
 ## Support
 
-Where's My Stuff does not generate any revenue. If you wish to support the developers you can donate some sats at the Bitcoin address below:
+Where's My Stuff does not generate any revenue. If you wish to support the developers you can donate some sats (Satoshis) at the Bitcoin address below:
