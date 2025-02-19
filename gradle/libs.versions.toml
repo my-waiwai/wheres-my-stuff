@@ -1,9 +1,10 @@
 [versions]
 activityCompose = "1.9.3"
-agp = "8.7.3"
+agp = "8.8.1"
 androidExtensionsVersion = "2.2.1"
 appcompat = "1.7.0"
 arborJvm = "1.40.86"
+coilCompose = "3.0.4"
 composeBom = "2024.04.01"
 converterGson = "2.11.0"
 converterScalars = "2.11.0"
@@ -52,6 +53,7 @@ androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
 androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 arbor-jvm = { module = "com.ToxicBakery.logging:arbor-jvm", version.ref = "arborJvm" }
+coil-compose = { module = "io.coil-kt.coil3:coil-compose", version.ref = "coilCompose" }
 converter-gson = { module = "com.squareup.retrofit2:converter-gson", version.ref = "converterGson" }
 converter-scalars = { module = "com.squareup.retrofit2:converter-scalars", version.ref = "converterScalars" }
 dagger = { module = "com.google.dagger:dagger", version.ref = "dagger" }
@@ -60,7 +62,6 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 kotlinx-collections-immutable = { module = "org.jetbrains.kotlinx:kotlinx-collections-immutable", version.ref = "kotlinxCollectionsImmutable" }
 kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
 kotlin-extensions = { module = "com.github.davidepanidev:kotlin-extensions", version.ref = "kotlinExtensionsVersion" }
-#kotlin-extensions = { module = "com.github.davidepanidev:kotlin-extensions" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
 reimagined-hilt = { module = "dev.olshevski.navigation:reimagined-hilt", version.ref = "reimaginedHilt" }
 resultat = { module = "fr.haan.resultat:resultat", version.ref = "resultat" }

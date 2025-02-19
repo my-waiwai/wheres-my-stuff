@@ -14,7 +14,7 @@
 
 </div>
 
- ----
+----
 
 Lightweight and fast utility for Android dedicated to tracking where your personal items are located.
 
@@ -43,11 +43,22 @@ The User Interface has been designed by following the latest Google's Material D
   -  _domain_: Kotlin module that contains platform-independent business logic, the entities (platform-independent business models), and the repository interfaces. It contains the `BaseAutomaticRefreshDataFlowUseCase` which handles the logic to refresh the persisted data when it becomes outdated.
   -  _data_: Android module that acts as the **Single-Source-Of-Truth** of the app. It contains repositories implementations, the Room entities for persistence, the data source API implementations and the corresponding API-specific models.
 
+
 ## Credits
 
 ### Contributors
 
 - [Dave Wiard](https://github.com/davewiard)
+
+
+### Image Files
+
+- [Pixabay](https://www.pexels.com/photo/brown-fabric-sectional-sofa-275484/)
+- [Charlotte May](https://www.pexels.com/photo/kitchen-room-with-white-wall-5824883/)
+- [Terry Magallanes](https://www.pexels.com/photo/bedroom-2631746/)
+- [cottonbro studio](https://www.pexels.com/photo/carpentry-tools-on-a-white-surface-7484793/)
+- [Clément Proust](https://www.pexels.com/photo/interior-of-rv-van-18797772/)
+
 
 ### Libraries and References
 

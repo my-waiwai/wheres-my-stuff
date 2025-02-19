@@ -73,7 +73,6 @@ dependencies {
     implementation(libs.kotlinx.collections.immutable)
     implementation(libs.androidx.lifecycle.runtime.compose)
 
-
     // hilt
     implementation(libs.hilt.android)
     kapt("com.google.dagger:hilt-android-compiler:2.52")
@@ -97,5 +96,8 @@ dependencies {
 
     // Arbor
     implementation(libs.arbor.jvm)
+
+    // Coil (for AsyncImage)
+    implementation(libs.coil.compose)
 
 }
